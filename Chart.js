@@ -3561,8 +3561,8 @@
                 hitDetectionRadius: this.options.pointHitDetectionRadius,
                 ctx: this.chart.ctx/*,
                 inRange: function(mouseX) {
-                    return (Math.pow(mouseX - this.x, 2) < Math.pow(this.radius + this.hitDetectionRadius, 2));*/
-                }
+                    return (Math.pow(mouseX - this.x, 2) < Math.pow(this.radius + this.hitDetectionRadius, 2));
+                }*/
             });
 
             this.datasets = [];
