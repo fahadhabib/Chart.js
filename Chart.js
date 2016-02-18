@@ -3559,9 +3559,9 @@
                 radius: this.options.pointDotRadius,
                 display: this.options.pointDot,
                 hitDetectionRadius: this.options.pointHitDetectionRadius,
-                ctx: this.chart.ctx,
+                ctx: this.chart.ctx/*,
                 inRange: function(mouseX) {
-                    return (Math.pow(mouseX - this.x, 2) < Math.pow(this.radius + this.hitDetectionRadius, 2));
+                    return (Math.pow(mouseX - this.x, 2) < Math.pow(this.radius + this.hitDetectionRadius, 2));*/
                 }
             });
 
@@ -3584,7 +3584,7 @@
                             active.strokeColor = active.highlightStroke;
                         }
                     });
-                    this.showTooltip(activeData);
+                    //this.showTooltip(activeData);
                 });
             }
 
